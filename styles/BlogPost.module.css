@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+}
+
+.container {
+  padding: 0 22rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 14rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 0 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 2.5rem;
+  }
+}

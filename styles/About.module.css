@@ -1,0 +1,38 @@
+.container {
+    max-width: 45vw;
+    margin: 45px auto;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my {
+    margin: 20px 0;
+}
+
+.mx {
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 60vw;
+        margin: 40px auto;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    .container {
+        max-width: 70vw;
+        margin: 40px auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 85vw;
+        margin: 40px auto;
+    }
+}
